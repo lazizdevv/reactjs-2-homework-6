@@ -13,9 +13,9 @@ export const ProductCard = ({ id, price, count, name, img }) => {
   };
   return (
     <div className="flex justify-center">
-      <div className="border-2 p-5 pt-10 max-w-[300px] w-full relative rounded-lg shadow-xl">
-        <img className="mb-2" src={img} alt="img" />
-        <h1 className="font-bold text-base text-[#333]">{name}</h1>
+      <div className="border-2 p-5 pt-10 max-w-[300px] w-full relative rounded-lg shadow-xl hover:shadow-2xl cursor-pointer hover:scale-105 transition-all">
+        <img className="mb-2 w-[256px] h-[256px] border-2" src={img} alt="img" />
+        <h1 className="font-bold w-[250px] h-10 text-base text-[#333]">{name}</h1>
         <p className="font-extrabold text-2xl py-1 my-2 text-center">
           {price}$
         </p>

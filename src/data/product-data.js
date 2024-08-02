@@ -59,7 +59,7 @@ export const products = [
     id: 9,
     price: 299,
     count: 8,
-    name: "Samsung Galaxy A34 5G Awesome Graphite (Бывший в употреблении) 6/128 GB",
+    name: "Samsung Galaxy A34 5G Awesome Graphite 6/128 GB",
     img: "https://olcha.uz/image/266x266/products/cdn_1/supplier/stores/1/2024-06-01/sAkb4HxU6gv3PgIuFwNfD4iLeUxSqecAUmKyeG9NtvRDNVzx9oTWBm1FMjHJ.jpg",
   },
   {
